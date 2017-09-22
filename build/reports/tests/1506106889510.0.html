@@ -1,0 +1,854 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ru_RU" class="k-webkit k-webkit60"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=980" />
+    
+    <meta name="apple-itunes-app" content="app-id=1128343483" />
+
+    <meta name="google-play-app" content="app-id=com.timeweb.hosting" />
+
+    <link rel="stylesheet" href="/assets/app-1289960a22.css" />    <title>
+                    Хостинг TimeWeb: Панель управления аккаунтом            </title>
+    <meta name="X-Server-Layout-Hash" value="e9722f4b80bfdf84a11e955a918a54a6" />
+<link href="/assets/oldcp-styles/legacywindows-0c208c5b67.css" rel="stylesheet" />
+<link href="/assets/oldcp-styles/welcome-ddba73bcde.css" rel="stylesheet" />
+<link href="/assets/oldcp-styles/cp30-reset-5788cf7d7f.css" rel="stylesheet" />
+<script type="text/javascript" async="" src="//widgets.livetex.ru/widget-ui-3.js"></script><script src="https://js-agent.newrelic.com/nr-1044.min.js"></script><script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o&lt;t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&amp;&amp;(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&amp;&amp;(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&amp;&amp;(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&amp;&amp;(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o&lt;0?0:o);++r&lt;o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&amp;&amp;window.performance.timing&amp;&amp;"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&amp;&amp;e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&amp;&amp;e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c&lt;f;c++)u[c].apply(a,r);var p=s[y[t]];return p&amp;&amp;p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&amp;&amp;(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&amp;&amp;Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&amp;&amp;"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&amp;&amp;e.licenseKey&amp;&amp;e.applicationID&amp;&amp;n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&amp;&amp;i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&amp;&amp;performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&amp;&amp;w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&amp;&amp;g&amp;&amp;g[l]&amp;&amp;!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+window.Timeweb=window.Timeweb||{params:{},data:{}};</script>
+    
+<link rel="shortcut icon" href="/assets/929fd918/favicons/yellow/favicon.ico" type="image/x-icon" />
+
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/assets/929fd918/favicons/yellow/favicon-144.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/929fd918/favicons/yellow/favicon-152.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/929fd918/favicons/yellow/favicon-144.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/929fd918/favicons/yellow/favicon-120.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/929fd918/favicons/yellow/favicon-114.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/929fd918/favicons/yellow/favicon-72.png" />
+
+<link rel="apple-touch-icon-precomposed" href="/assets/929fd918/favicons/yellow/favicon-57.png" />
+
+<link rel="icon" href="/assets/929fd918/favicons/yellow/favicon-32.png" sizes="32x32" />
+</head>
+<body class="l-decor-bg cp-style-theme page-site locale-ru_RU page-start" data-locale="ru_RU">
+
+<section id="default-layout" class="hosting-layout table-w" data-instanced="true">
+
+    <div class="menu-cell-w">
+
+        <a class="layout-h layout-logo js-pjax js-logo" href="/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="layout-logo-image" width="185" height="45">
+                <path fill="#fff" transform="translate(35,7)" class="js-layout-logo-text" d="M5.7,18.3l1.6-7.4h5.8l0.8-3.7H8.1l1-4.7L4.5,4.3L3.9,7.2H1l-0.8,3.7h2.9l-1.7,7.8C0.3,23.8,2,25,5.9,25     c1.4,0,3.1-0.3,4.3-0.6l0.8-3.6c-0.9,0.3-2.3,0.5-3.3,0.5C5.7,21.4,5.3,20.5,5.7,18.3z M17.9,4.5c1.9,0,2.5-0.3,3-2.3     c0.4-1.8-0.1-2.1-2-2.1c-1.9,0-2.5,0.3-2.9,2.1C15.5,4.1,16,4.5,17.9,4.5z M15.2,7.2l-3.7,17.3h4.3l3.7-17.3H15.2z M40.9,6.7     c-2,0-4.4,0.5-6.5,1.2c-0.9-0.8-2.3-1.2-4.2-1.2c-2.8,0-6.1,0.7-8.4,1.5l-3.5,16.3h4.3l2.9-13.6c0.9-0.2,2.1-0.4,3-0.4     c2.8,0,3.3,1,2.5,4.8l-2,9.2h4.3l2.1-9.6c0.3-1.6,0.4-2.9,0.3-3.9c1.2-0.3,2.6-0.5,3.5-0.5c2.8,0,3.3,1,2.5,4.8l-2,9.2H44     l2.1-9.6C47.4,8.7,45.8,6.7,40.9,6.7z M57.9,6.7c-5.1,0-8.6,2.1-10.1,9.1c-1.5,7.1,1.5,9.2,6.5,9.2c1.8,0,4.4-0.4,6.3-1l0-3.3     c-1.4,0.4-3.8,0.7-5,0.7c-3.1,0-4.3-0.7-3.6-4.5h11.3C65.4,8.6,63.4,6.7,57.9,6.7z M60.1,13.8h-7.3c0.9-2.9,2-3.7,4.7-3.7     C59.8,10.1,60.6,10.7,60.1,13.8z M88.8,7.2c-2,4.3-4.4,8.7-6.9,13c0-3.7-0.3-9.6-0.7-13H77c-1.4,3.1-4.6,9.5-6.6,13     c-0.1-4.4-0.5-9.2-1.2-13h-4.5c0.9,5.3,1.5,11.3,1.9,17.3h5.2c1.8-3.1,4.2-8,5.8-11.6c0.2,2.7,0.4,8.1,0.3,11.6h5.3     c3.4-5.5,6.9-11.7,9.7-17.3H88.8z M106.6,17c2.1-8.4,0.1-10.3-5.4-10.3c-5.1,0-8.6,2.1-10.1,9.1c-1.5,7.1,1.5,9.2,6.5,9.2     c1.8,0,4.4-0.4,6.3-1l0-3.3c-1.4,0.4-3.8,0.7-5,0.7c-3.1,0-4.3-0.7-3.6-4.5H106.6z M100.7,10.1c2.4,0,3.2,0.6,2.7,3.7H96     C96.9,10.9,98,10.1,100.7,10.1z M119.3,6.7c-2,0-3.7,0.6-4.8,1.2l1.7-7.9H112l-5.1,23.7c1.7,0.7,4.9,1.3,7.4,1.3     c5.8,0,8.8-2.1,10.3-9.2C126.1,8.8,124.2,6.7,119.3,6.7z M120.3,15.8c-1.1,4.9-2.2,5.7-5.3,5.7c-1.1,0-2.4-0.2-3.3-0.5l1.9-8.9     c0.2-1,1.9-1.6,3.8-1.6C120.5,10.4,121.2,11.5,120.3,15.8z"/>
+                <path fill="#fed137" transform="translate(35,7)" class="js-layout-logo-arrow" d="M142.4,14.8c-0.7-0.6-11-7.1-11-7.1S130.5,8.2,130,9c-0.5,0.8-0.6,2-0.6,2s6.4,3.9,7,4.3 c0.5,0.3,0.5,0.9,0,1.3c-0.6,0.4-7,4.3-7,4.3s0.1,1.1,0.6,2c0.5,0.8,1.4,1.2,1.4,1.2s10.3-6.5,11-7.1C143,16.3,143,15.3,142.4,14.8 z"/>
+            </svg>
+        </a>
+
+        
+<div id="w12-12-59c55e04" class="bind-phone-alert" data-instanced="true">
+
+    <div class="small-text">
+        Следите за состоянием вашего аккаунта и получайте более полные консультации по телефону и чату.
+    </div>
+
+    <a href="/sms" class="cpS-btn-simple js-pajx">
+        Привязать телефон    </a>
+
+    <button class="bind-phone-alert-close js-close">×</button>
+</div>
+
+        <nav><div class="cpS-menu-one-level" id="menu-13-59c55e04-menu" data-instanced="true">
+            <nav>
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-domain-subdomain" href="/domains" data-id="1"><span class="cpS-main-menu-item-txt menu-lk">Домены и поддомены</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-site" href="/sites" data-id="2"><span class="cpS-main-menu-item-txt menu-lk">Сайты</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-promotion __new __new-animation" href="/promotion" data-id="54"><span class="cpS-main-menu-item-txt menu-lk">Реклама и продвижение</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-timestore" href="/cms" data-id="3"><span class="cpS-main-menu-item-txt menu-lk">Каталог CMS</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-filemanager" href="/fileman" data-id="4"><span class="cpS-main-menu-item-txt menu-lk">Файловый менеджер</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-mysql" href="/mysql" data-id="5"><span class="cpS-main-menu-item-txt menu-lk">Базы данных MySQL</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-mailmanager" href="/mailman" data-id="6"><span class="cpS-main-menu-item-txt menu-lk">Почта</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-ftp-user" href="/managers" data-id="7"><span class="cpS-main-menu-item-txt menu-lk">Пользователи ПУ/FTP</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-backup" href="/backup" data-id="8"><span class="cpS-main-menu-item-txt menu-lk">Резервные копии</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-crontab" href="/crontab" data-id="9"><span class="cpS-main-menu-item-txt menu-lk">Crontab</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-jabber" href="/jabber" data-id="10"><span class="cpS-main-menu-item-txt menu-lk">Jabber сервер</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-safety" href="/security" data-id="11"><span class="cpS-main-menu-item-txt menu-lk">Безопасность</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-logs" href="/logmanager" data-id="12"><span class="cpS-main-menu-item-txt menu-lk">Логи</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-timeweb-cp" href="/loading" data-id="13"><span class="cpS-main-menu-item-txt menu-lk">Нагрузка на сервер</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-extra-serv" href="/services" data-id="14"><span class="cpS-main-menu-item-txt menu-lk">Дополнительные услуги</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-crossing" href="/accelerator" data-id="20"><span class="cpS-main-menu-item-txt menu-lk">Ускоритель сайтов</span></a>    
+
+
+                            
+
+                        <a class="cpS-main-menu-item icon js-item icon-ide" href="https://janet.timeweb.ru/ide/ce25808" data-id="25" target="_blank"><span class="cpS-main-menu-item-txt menu-lk">Редактор кода</span><i class="help-lk-icon icon-arrow-new-tab"></i></a>            
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-ssh" href="/console" data-id="26" target="_blank" data-virtualpage="console/view"><span class="cpS-main-menu-item-txt menu-lk">Веб-консоль</span><i class="help-lk-icon icon-arrow-new-tab"></i></a>    
+
+
+                    </nav>
+                    <hr class="cpS-main-menu-line" />
+                    <nav>
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-tariff" href="/tariff" data-id="15"><span class="cpS-main-menu-item-txt menu-lk">Тариф</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-finance" href="/finances" data-id="16"><span class="cpS-main-menu-item-txt menu-lk">Оплата услуг</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-docs" href="/documents" data-id="17"><span class="cpS-main-menu-item-txt menu-lk">Документы</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-sms" href="/sms" data-id="18"><span class="cpS-main-menu-item-txt menu-lk">Уведомления</span></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-bonus" href="/bonuses" data-id="19"><span class="cpS-main-menu-item-txt menu-lk">Бонусы и промокоды</span></a>    
+
+
+                    </nav>
+                    <hr class="cpS-main-menu-line" />
+                    <nav>
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-faq" href="http://timeweb.com/ru/help/?utm_source=timeweb&amp;utm_medium=hosting&amp;utm_campaign=menu" data-id="21" target="_blank"><span class="cpS-main-menu-item-txt menu-lk">Справочный центр</span><i class="help-lk-icon icon-arrow-new-tab"></i></a>    
+
+
+                            
+
+            <a class="cpS-main-menu-item icon js-item icon-community" href="https://community.timeweb.com/" data-id="24" target="_blank"><span class="cpS-main-menu-item-txt menu-lk">Timeweb Community</span><i class="help-lk-icon icon-arrow-new-tab"></i></a>    
+
+
+                    </nav>
+            </div>
+
+</nav>        
+                    <a class="btn-return-to-old cpS-btn-icon-tx" href="/?oldpanel=1"><i class="icon icon-back"></i>Вернуться к старой панели</a>        
+    </div>
+
+    <div class="cnt-cell-w">
+
+        <header class="layout-h layout-h_cnt">
+            
+<div id="w14-15-59c55e04" class="header-warning" data-instanced="true">
+    
+</div>
+
+<script type="text/template" id="notification-template">
+    &lt;% _.each(notifications, function(notification){ %&gt;
+        &lt;aside class="layout-error-blk js-notification-block" data-id="&lt;%= notification.id %&gt;"&gt;
+
+            &lt;i class="icon-status icon-warning"&gt;&lt;/i&gt;
+
+            &lt;div class="layout-error-lk-wrap ts-table-cell js-notification-text" data-id="&lt;%= notification.id %&gt;"&gt;
+                &lt;%= notification.brief %&gt;
+            &lt;/div&gt;
+
+            &lt;div class="layout-error-close js-close-notification" data-id="&lt;%= notification.id %&gt;"&gt;
+                &lt;i class="icon icon-close-delete"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+        &lt;/aside&gt;
+    &lt;% }); %&gt;
+</script>
+            <nav class="wdgt-MainHeaderMenu" id="w15-menu" data-instanced="true">
+            
+<a class="js-item js-pjax h-menu-lk ts-inline-block ts-relative" href="/news">    <span class="h-menu-lk-tx">Новости</span>
+    <span class="h-menu-notificator js-unread-news-counter" style="display: none;"></span>
+</a>            
+<a class="js-item js-pjax h-menu-lk ts-inline-block ts-relative" href="/tickets">    <span class="h-menu-lk-tx">Служба поддержки</span>
+    <span class="h-menu-notificator js-unread-tickets-counter" style="display: none;"></span>
+</a>            
+<a class="js-item js-pjax h-menu-lk ts-inline-block ts-relative" href="/ideas">    <span class="h-menu-lk-tx">Есть идея</span>
+    <span class="h-menu-notificator js-unread-ideas-counter" style="display: none;"></span>
+</a>    </nav>
+                            <span class="welcome-screen-icon icon-flag js-welcome-screen-icon" title="Показать «Окно приветствия»"></span>
+                        <div id="w16-16-59c55e04" class="widget_mainHeaderAccount" data-instanced="true">
+
+    <div class="h-acc-w">
+        <a href="/account" class="h-user-avatar cpS-user-avatar-S icon icon-user-ava js-account-avatar  js-pjax" style=" background-size: 100%;"></a>
+
+        <div class="ts-inline-block ts-pointer js-dropdown-account-btn">
+                            <div class="h-acc-info">
+                    <p class="acc-name js-acc-name">ce25808</p>
+                    <p class="acc-add-info">
+                                                    <span class="js-account-balance">0</span>
+                            <span class="banknote icon icon-ruble"></span>
+                                            </p>
+                </div>
+            
+            <div class="h-acc-dropdown">
+                <i class="icon icon-dropdown-triangle"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="acc-selector js-acc-selector">
+        <div class="accounts-list js-accounts-list">
+            <div id="w17-17-59c55e04" class="linked-accounts-list-widget js-linked-accounts-list-widget" data-instanced="true">
+
+        <div class="account-item">
+        <a class="js-add-account account-item-ref add-account">
+            <span class="linked-account-avatar cpS-user-avatar-S icon icon-add-user"></span><!--
+         --><span class="add-acc-link">Привязать аккаунт</span>
+        </a>
+    </div>
+    
+    <div class="js-accounts-list accounts-list">
+                
+        <script type="text/template" class="js-account-item-template">
+            &lt;div class="account-item js-linked-user"&gt;
+                &lt;a class="js-account account-item-ref" data-login="&lt;%- user %&gt;"&gt;
+                    &lt;span class=" linked-account-avatar cpS-user-avatar-S &lt;% if(!avatar) { %&gt;icon-user-ava&lt;% } %&gt;"&gt;&lt;% if(avatar) { %&gt;&lt;img src="&lt;%- avatar %&gt;"&gt;&lt;% } %&gt;&lt;/span&gt;&lt;!--
+                 --&gt;&lt;%= user %&gt;
+                    &lt;span class="js-remove-account account-item-remove" data-login="&lt;%- user %&gt;" title="Отвязать аккаунт"&gt;-&lt;/span&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        </script>
+    </div>
+</div>
+
+        </div>
+        <footer class="acc-link-blk">
+            <a class="js-pjax cpS-lk-simple ts-fl-l" href="/account">Профиль аккаунта</a>            <a class="cpS-lk-simple" href="/logout">Выйти</a>        </footer>
+    </div>
+
+</div>
+        </header>
+
+        <div class="layout-cnt-w js-content-wrapper">
+
+            <div id="js-preloader" class="preloader">
+
+                <div class="preloader-bg"></div>
+
+                <div class="preloader-info-blk">
+
+                    <i class="loader preloader-img"></i>
+
+                    <p class="preloader-info-txt"> Пожалуйста, подождите </p>
+
+                </div>
+
+            </div>
+
+            <div id="p0" data-pjax-container="" data-pjax-push-state="" data-pjax-timeout="0"><div class="page-start js-main-page" xmlns="http://www.w3.org/1999/html" data-instanced="true">
+
+    
+<section id="w0-0-59c55e04" class="slider-banners js-slider-banners" data-instanced="true">
+
+    <div class="slider-banners-blk js-slider-banners-blk">
+
+        <a class="js-slider-banners-link slider-banners-item" href="/backup/?utm_campaign=backup&amp;utm_medium=timeweb&amp;utm_source=panel" style="background-image: url('/images/offers/backup_offer.jpg?v=2')">
+
+            <i class="slider-banners-arrow icon icon-pagination-right"></i>
+
+            <div class="slider-banners-close js-slider-banners-close" data-type="backup">
+                <i class="icon icon-close-delete"></i>
+            </div>
+        </a>
+
+    </div>
+
+    <script class="js-slider-bunner-template" type="text/x-kendo-template">
+        &lt;a class="js-slider-banners-link slider-banners-item" href="#: url #" data-title="#: title #" style="background-image: url('#: image #')"&gt;
+            &lt;h4 class="cpS-section-small-h-txt"&gt;#: title #&lt;/h4&gt;
+
+            &lt;p&gt;#: description #&lt;/p&gt;
+
+            &lt;i class="slider-banners-arrow icon icon-pagination-right"&gt;&lt;/i&gt;
+
+            &lt;div class="slider-banners-close js-slider-banners-close" data-type="#: type #"&gt;
+                &lt;i class="icon icon-close-delete"&gt;&lt;/i&gt;
+            &lt;/div&gt;
+        &lt;/a&gt;
+    </script>
+</section>
+    
+<section id="w1-1-59c55e04" class="bring-friend" data-instanced="true">
+
+    <button class="bring-full-close-btn js-bring-full-hide">
+        <i class="icon"></i>
+    </button>
+
+    <header class="bring-friend-short js-bring-short">
+        <p class="bring-friend-pseudo-lk">Приводи своих друзей в Timeweb - пользуйся хостингом бесплатно!</p>
+    </header>
+
+    <div class="bring-friend-full js-bring-full">
+
+        <aside class="bring-friend-full-sidebar">
+            <div class="bring-friend-img"></div>
+        </aside>
+
+        <div class="bring-friend-full-cnt">
+            <h2 class="bring-friend-full-h cpS-common-blk-h">Акция «Приведи друга»</h2>
+
+            <div class="bring-friend-tx cpS-text-double-v-ind cpS-text-blk">
+                <p class="cpS-text-double-v-ind">
+                    За каждого нового клиента, зарегистрировавшегося по вашей личной ссылке и оплатившего год хостинга, вы получаете 10% его платежа в виде бесплатных дней пользования хостингом.                </p>
+                <p class="cpS-text-ind">
+                    Пример расчета бонуса:                </p>
+                <p class="cpS-text-ind">
+                    У вас тариф Year+ за 99 руб/мес. Ваш друг зарегистрировался на годовом тарифе и сделал платеж 2000 рублей.                </p>
+                <p class="cpS-text-ind">
+                    Вы получите 2 месяца хостинга в подарок!                </p>
+            </div>
+
+            <a class="bring-friend-simple-lk cpS-lk-simple" href="/news/116" target="_blank">Подробнее ознакомиться с условиями акции</a>
+            <div id="w2-2-59c55e04" class="bring-friend-clipboard" data-instanced="true"><input type="text" class="bring-friend-referral cpS-input" name="zero-clipboard" value="http://timeweb.com/ru/services/hosting/?utm_source=ce25808&amp;utm_medium=timeweb&amp;utm_campaign=timeweb-bring-a-friend" readonly="" />
+<button class="btn cpS-btn-acc js-zero-clipboard-tag">Скопировать ссылку</button></div>        </div>
+    </div>
+
+</section>
+    
+<nav class="quick-actions-panel">
+            <a class="quick-actions-panel-item " href="/fileman">            <i class="icon icon-filemanager"></i>Загрузить файлы        </a>            <a class="quick-actions-panel-item " href="/domains/#/register">            <i class="icon icon-add-domain"></i>Добавить домен        </a>            <a class="quick-actions-panel-item " href="/sites/#hot_action">            <i class="icon icon-new-site"></i>Создать сайт        </a>            <a class="quick-actions-panel-item " href="/cms">            <i class="icon icon-timestore"></i>Выбрать CMS         </a>            <a class="quick-actions-panel-item " href="mysql/#hot_action">            <i class="icon icon-add-base"></i>Создать базу данных        </a>            <a class="quick-actions-panel-item " href="/mysql/" target="_blank">            <i class="icon icon-pma"></i>Открыть phpMyAdmin        </a>    </nav>
+
+    
+    
+<section id="w3-3-59c55e04" class="server-status-blk" data-instanced="true">
+    <nav class="server-status-blk-h cpS-tabs-menu">
+                    <div class="cpS-tabs-menu-item js-switch-widget active" data-tab="server" data-ga="virtual/view-server-statisitcs-main-graph">
+                <span class="ts-inline-block">Сервер</span><span class="server-indicator-small js-tab-server-indicator __on"></span>
+            </div>
+        
+                    <div class="cpS-tabs-menu-item js-switch-widget" data-tab="load" data-ga="virtual/view-loading-main-graph">
+                <span class="ts-inline-block">Нагрузка</span><span class="server-indicator-small js-tab-load-indicator __on"></span>
+            </div>
+        
+                    <div class="cpS-tabs-menu-item js-switch-widget" data-tab="visits" data-ga="virtual/view-visit-statisitcs-main-graph">Посещения</div>
+            </nav>
+
+    <section class="server-status-blk-cnt cpS-common-block-bottom-corn js-widget-tab" data-tab="server">
+<div id="w4-4-59c55e04" data-instanced="true">
+    <section class="server-name-blk separate-line">
+        <i class="icon icon-server ts-fl-l"></i>
+        <h3 class="cpS-tx-accent-strong-M-32">
+            Сервер: janet
+            <div class="server-indicator js-server-indicator __on"></div>
+        </h3>
+        <div id="up-time-info">
+            <p>
+                Uptime:
+                <span class="cpS-tooltip-inline js-info-tooltip" data-tooltip="Время непрерывной работы сервера без перезагрузки">
+                     29 д., 19 ч.
+                </span>
+                <span class="cpS-color-add">|</span>
+                <span class="cpS-tooltip-inline js-info-tooltip" data-tooltip="Время беспрерывной работы сервера за последние 365 дней (%)">
+                    99,5 %
+                </span>
+            </p>
+        </div>
+        <script type="text/template" id="js-up-time-info-template">
+            &lt;p&gt;
+                Uptime:
+                &lt;span class="cpS-tooltip-inline js-info-tooltip" data-tooltip="Время непрерывной работы сервера без перезагрузки"&gt;
+                     &lt;%= humanUpTime %&gt;
+                &lt;/span&gt;
+                &lt;span class="cpS-color-add"&gt;|&lt;/span&gt;
+                &lt;span class="cpS-tooltip-inline js-info-tooltip" data-tooltip="Время беспрерывной работы сервера за последние 365 дней (%)"&gt;
+                    &lt;%= upTimePercent %&gt; %
+                &lt;/span&gt;
+            &lt;/p&gt;
+        </script>
+    </section>
+
+    <section class="service-status-blk">
+        <h4 class="cpS-h-XS">
+            Статус сервисов        </h4>
+
+        <div class="service-web service-status-item js-web-service" title="Сервер доступен в сети Интернет">
+            <div class="service-icon-blk">
+                <i class="icon icon-web"></i>
+            </div>
+
+            <span class="service-name">Web</span>
+            <div class="server-indicator-small js-web-service-indicator __on"></div>
+        </div><!--
+     --><div class="service-sql service-status-item js-mysql-service" title="Работа с базами данных доступна">
+            <div class="service-icon-blk">
+                <i class="icon icon-mysql"></i>
+            </div>
+
+            <span class="service-name">MySQL</span>
+            <div class="server-indicator-small js-mysql-service-indicator __on"></div>
+        </div><!--
+     --><div class="service-ftp service-status-item js-ftp-service" title="Доступ для подключения открыт">
+            <div class="service-icon-blk">
+                <i class="icon icon-ftp"></i>
+            </div>
+
+            <span class="service-name">FTP</span>
+            <div class="server-indicator-small js-ftp-service-indicator __on"></div>
+        </div><!--
+     --><div class="service-ssh service-status-item js-ssh-status" title="Доступ закрыт">
+            <div class="service-icon-blk">
+                <i class="icon icon-ssh"></i>
+            </div>
+
+            <span class="service-name">SSH</span>
+
+            <div class="service-ssh-switch ts-fl-r">
+                
+<div class="wdgt-SwitchSlider km-ios7" id="w5-5-59c55e04" data-instanced="true"><span class="km-switch km-widget km-switch-off"><input type="checkbox" class="js-ssh-switcher km-widget" value="1" style="display:inline" data-role="switch" />        <span class="km-switch-wrapper"><span class="km-switch-background" style="margin-left: -54px;"></span></span>         <span class="km-switch-container"><span class="km-switch-handle" style="transform: translateX(0px);">             <span class="km-switch-label-on">ON</span>             <span class="km-switch-label-off">OFF</span>         </span>     </span></span></div>            </div>
+        </div>
+    </section>
+
+    <section class="access-status-blk">
+
+        <h4 class="cpS-h-XS js-ftp-credentials">
+                            Доступ по FTP                    </h4>
+
+        <table class="access-data-blk">
+                            <tbody><tr>
+                    <td>
+                        IP:
+                    </td>
+                    <td>
+                        92.53.96.101                    </td>
+                </tr>
+                        <tr>
+                <td>
+                    Хост:
+                </td>
+                <td>
+                    janet.timeweb.ru                </td>
+            </tr>
+            <tr>
+                <td>
+                    Логин:
+                </td>
+                <td>
+                    ce25808                </td>
+            </tr>
+        </tbody></table>
+        <p>
+            Пароль доступа по FTP совпадает с паролем для панели управления аккаунтом.        </p>
+    </section>
+
+    <script type="text/template" class="js-modal-bindphone-template">
+        &lt;div id="&lt;%= id %&gt;"&gt;
+            &lt;div class=" cpS-icon-block icon icon-&lt;%= icon %&gt;"&gt;&lt;%= text %&gt;&lt;/div&gt;
+
+            &lt;footer class="cpS-popup-f"&gt;
+                &lt;a href="/sms/" class="cpS-btn-acc js-bind-phone"&gt;&lt;%= ok_text %&gt;&lt;/a&gt;
+                &lt;div class="triangle"&gt;
+                    &lt;span&gt;&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+
+    </script>
+</div></section>
+            <section class="server-status-blk-cnt cpS-common-block-bottom-corn js-widget-tab" data-tab="load" style="display: none">
+
+<div id="w6-6-59c55e04" data-instanced="true">
+    <section class="server-load-item">
+
+        <div class="cpS-tooltip-block js-info-tooltip" data-tooltip="Нагрузка на процессор измеряется в cp (cpu points) и равна количеству минут, потраченных одним ядром процессора на выполнение процессов пользователя."></div>
+
+        <p>Нагрузка на процессор:</p>
+        <p class="server-status-data cpS-h-XS"><span class="js-current-cpu-load">0</span> из <span class="js-cpu-load-limit">50,0</span> cp</p>
+        <a href="/loading" class="js-item">
+            <div class="server-load-chart" id="js-cpu-load-chart"></div>
+        </a>
+    </section>
+
+    <section class="server-load-item">
+
+        <div class="cpS-tooltip-block js-info-tooltip" data-tooltip="Нагрузка на базы данных равна количеству секунд, потраченных одним ядром процессора на обработку запросов пользователя к базе данных MySQL."></div>
+
+        <p>Нагрузка на базы данных:</p>
+        <p class="server-status-data cpS-h-XS"><span class="js-current-db-load">0</span> из <span class="js-db-load-limit">1000</span> сек</p>
+        <a href="/loading" class="js-item">
+            <div class="server-load-chart" id="js-db-load-chart"></div>
+        </a>
+    </section>
+</div></section>
+    
+            <section class="server-status-blk-cnt cpS-common-block-bottom-corn js-widget-tab" data-tab="visits" style="display: none">
+<div id="w7-7-59c55e04" data-instanced="true">
+            <span class="k-widget k-dropdown k-header domains-list js-domains-list" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="" aria-disabled="false" aria-readonly="false" aria-busy="false" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">ce25808.tmweb.ru</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><select class="domains-list js-domains-list" name="domain" data-role="dropdownlist" style="display: none;"><option value="ce25808.tmweb.ru" selected="selected">ce25808.tmweb.ru</option></select></span>
+        <p>Сейчас на сайте:</p>
+        <p class="server-status-data cpS-h-XS js-currently-online">нет пользователей</p>
+        <div class="visits-chart" id="js-visits-chart"></div>
+
+        <footer class="cpS-common-inner-block-f-abs ts-tx-center">
+
+            <div class="cpS-legend-blk">
+                <div class="cpS-legend-icon">
+                    <div class="cpS-legend-circle"></div>
+                    <div class="cpS-legend-line"></div>
+                </div>
+                <span class="cpS-legend-txt">Количество пользователей</span>
+            </div>
+        </footer>
+
+    
+</div>
+</section>
+    </section>
+    
+<section class="balance-info-blk cpS-common-inner-block-all">
+    <p class="cpS-tx-accent-strong-M-32 cpS-color-attention">
+                    Ваш баланс: 0                <i class="icon icon-ruble"></i>
+    </p>
+
+    <article class="cpS-icon-n-info-blk">
+        <i class="cpS-icon-blk icon-wm-available-money"></i>
+        <div class="cpS-icon-n-info">
+                            <a class="cpS-lk-simple" href="/balance/#/subscription">Абонентская плата</a>:
+                        <br />
+            <p class="cpS-h-XS">
+                399 <i class="icon icon-ruble"></i>/месяц            </p>
+        </div>
+    </article>
+
+            <article class="cpS-icon-n-info-blk __last">
+            <i class="cpS-icon-blk icon-new-crontask"></i>
+
+            <div class="cpS-icon-n-info">
+                <p>Дней осталось:</p>
+                <p class="cpS-h-XS cpS-color-attention">
+                    10 (до 2 октября 2017)
+                </p>
+            </div>
+        </article>
+    
+        <footer class="cpS-common-inner-block-f ts-tx-center">
+                <a class="cpS-btn-acc" href="/finances/payment">Пополнить баланс</a>        
+        
+        <div class="triangle">
+            <span></span>
+        </div>
+    </footer>
+    </section>
+
+            
+<section class="plan-info-blk cpS-common-inner-block-all">
+
+    <h3 class="cpS-section-small-h">
+        Тариф:
+        <a class="cpS-color-accent cpS-lk-alt" href="/tariff/">Millennium+</a>
+                    (оплата за год)
+
+                            <p class="cpS-tx-add">
+                    Скидка за годовую оплату действует до:
+                    <span class="tariff-plan-expires-date-info">23 сен 2018</span>
+                </p>
+                        </h3>
+
+
+    <ul class="tariff-info-list cpS-color-accent">
+                <li class="tariff-info-item">
+            <h4 class="plan-info-item-h">Диск (SSD), ГБ:</h4>
+
+            <span class="tariff-info-count-all">
+                                25            </span>
+
+            <div class="tariff-info-bar cpS-progress-bar">
+                <div class="cpS-progress-bar-busy " style="width: 0%;"></div>
+            </div>
+        </li>
+        
+                <li class="tariff-info-item">
+            <h4 class="plan-info-item-h">Сайтов:</h4>
+
+            <span class="tariff-info-count-all">
+               1                                  из 50                           </span>
+
+            <div class="tariff-info-bar cpS-progress-bar">
+                <div class="cpS-progress-bar-busy " style="width: 2%;"></div>
+            </div>
+        </li>
+        
+                <li class="tariff-info-item">
+            <h4 class="plan-info-item-h">Пользователей ПУ / FTP:</h4>
+
+            <span class="tariff-info-count-all">
+                0                                    из 50                            </span>
+
+            <div class="tariff-info-bar cpS-progress-bar">
+                <div class="cpS-progress-bar-busy " style="width: 0%;"></div>
+            </div>
+        </li>
+        
+                <li class="tariff-info-item">
+            <h4 class="plan-info-item-h">Баз данных MySQL:</h4>
+
+             <span class="tariff-info-count-all">
+            0                        </span>
+
+            <div class="tariff-info-bar cpS-progress-bar">
+                <div class="cpS-progress-bar-busy " style="width: 1%;"></div>
+            </div>
+        </li>
+        
+            </ul>
+
+        <footer class="cpS-common-inner-block-f ts-tx-center">
+        <a class="cpS-btn-icon-tx" href="/tariff/">
+            <i class="icon icon-tariff"></i>
+            Изменить тариф        </a>
+
+        <div class="triangle">
+            <span></span>
+        </div>
+    </footer>
+    </section>
+    
+    
+<section id="w8-8-59c55e04" class="mobile-links">
+
+    <p class="mobile-link-txt">Приложение доступно в App Store и в Google Play</p>
+
+    <a href="https://itunes.apple.com/ru/app/%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%BC-timeweb/id1128343483?mt=8" target="_blank" class="mobile-app-link mobile-app-link_apple"></a>
+    <a href="https://play.google.com/store/apps/details?id=com.timeweb.hosting" target="_blank" class="mobile-app-link mobile-app-link_google"></a>
+
+</section>
+    
+    
+<div id="w9-9-59c55e04" data-instanced="true">    
+<div id="w10-10-59c55e04" class="js-info-popup" data-instanced="true">    <script type="text/template" id="info-popup-template">
+        &lt;div class="info-popup-banner"&gt;
+            &lt;img src="&lt;%= image %&gt;" class="info-popup-banner__image"&gt;
+        &lt;/div&gt;
+        &lt;p&gt;&lt;%=text%&gt;&lt;/p&gt;
+        &lt;footer class="cpS-popup-f ts-clearfix"&gt;
+            &lt;a href="&lt;%= link %&gt;" class="cpS-btn-acc ts-fl-l"&gt;Подробнее&lt;/a&gt;
+            &lt;a class="cpS-btn-simple ts-fl-r js-close"&gt;Посмотрю позже&lt;/a&gt;
+        &lt;/footer&gt;
+    </script>
+</div></div>
+    </div>
+</div>
+        </div>
+
+    </div>
+</section>
+
+<script type="text/template" class="js-modal-alert-template">
+    &lt;div id="&lt;%= id %&gt;"&gt;
+        &lt;div class=" cpS-icon-block icon icon-&lt;%= icon %&gt;"&gt;&lt;%= text %&gt;&lt;/div&gt;
+        &lt;footer class="cpS-popup-f btns-inline"&gt;
+
+            &lt;button class="&lt;%= ok_class %&gt; js-confirm"&gt;&lt;%= ok_text %&gt;&lt;/button&gt;
+
+            &lt;div class="triangle"&gt;
+                &lt;span&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/footer&gt;
+    &lt;/div&gt;
+</script>
+
+<script type="text/template" class="js-modal-confirm-template">
+    &lt;div id="&lt;%= id %&gt;"&gt;
+        &lt;div class="cpS-icon-block icon icon-&lt;%= icon %&gt;"&gt;&lt;%= text %&gt;&lt;/div&gt;
+        &lt;footer class="cpS-popup-f btns-inline"&gt;
+
+            &lt;button class="&lt;%= ok_class %&gt; js-confirm"&gt;&lt;%= ok_text %&gt;&lt;/button&gt;
+            &lt;button class="cpS-btn-simple  js-confirm-not"&gt;&lt;%= cancel_text %&gt;&lt;/button&gt;
+
+            &lt;div class="triangle"&gt;
+                &lt;span&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/footer&gt;
+    &lt;/div&gt;
+</script>
+
+<script type="text/template" class="js-partial-loading-template">
+    &lt;i class="partial-loading-img loader js-partial-loading-img"&gt;&lt;/i&gt;
+</script>
+
+<div style="display:none">
+    
+    <div id="welcomeScreenForm">
+        <div class="welcome-screen-cnt other-problem-form">
+            <label>Пожалуйста, опишите вашу ситуацию</label>
+            <!--suppress HtmlFormInputWithoutLabel -->
+            <textarea class="other-problem-textarea"></textarea>
+            <span class="validate-error">Необходимо заполнить поле</span><br />
+            <button type="submit" class="other-problem-submit btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only js-other-problem-submit">Отправить</button>
+        </div>
+    </div>
+</div>
+<div class="legacy-windows-container js-legacy-windows-container"><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-resizable ui-widget-shadow dialog-animate welcome-screen-dialog reverse-animate" tabindex="-1" role="dialog" aria-describedby="welcome_screen_dialog" aria-labelledby="ui-id-1" style="position: relative; height: auto; width: 645px; top: 77px; left: 344px; display: block;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">Поздравляем!</span><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close ui-state-focus" role="button" title=""><span class="ui-button-icon-primary ui-icon ui-icon-closethick icon-close-delete"></span><span class="ui-button-text"></span></button></div><div id="welcome_screen_dialog" class="ui-dialog-content ui-widget-content" style="width: auto; min-height: 91px; max-height: none; height: auto;">
+        <div class="js-welcome-screen-wrap">
+            <p class="ready-for-work-label">Ваш аккаунт готов к работе. Что дальше:</p>
+            <ul class="js-welcome-screen-options welcome-screen-accordion"><li class="welcome-screen-item"><h3 class="welcome-screen-item-h icon-os-bitrix" data-ga="/virt/hello/bitrix">Купите лицензию 1C-Битрикс и не платите за хостинг!</h3><div class="welcome-screen-cnt-w js-welcome-screen-cnt"><ol class="welcome-screen-cnt"><li class="welcome-screen-cnt-list-item">При покупке версии “Старт” вы получаете один год хостинга на тарифе “1Сайт”, а приобретая версию “Стандарт” или выше - год на тарифе “Eterno.</li><li class="welcome-screen-cnt-list-item">Стоимость системы 1С-Битрикс у нас не отличается от официальных цен компании. Оплата лицензии происходит прямо из Панели управления, для этого перейдите в раздел <a href="/cms" class="js-ga">"Каталог CMS"</a>, где вы сможете выбрать подходящую лицензию.</li></ol></div></li><li class="welcome-screen-item"><h3 class="welcome-screen-item-h icon-crossing" data-ga="/virt/hello/site">У меня есть сайт/домен, мне необходимо их перенести</h3><div class="welcome-screen-cnt-w js-welcome-screen-cnt"><ol class="welcome-screen-cnt"><li class="welcome-screen-cnt-list-item">Для переноса сайта просто <a data-ga="/virt/hello/site/link/send_details" class="js-ga js-close-ws" href="/support/34">предоставьте нам реквизиты</a>, и мы с радостью вам поможем (обратите внимание: перенос сайта может занять до 24 часов в зависимости от скорости работы серверов хостинг-провайдера, с которого будет осуществляться перенос).</li><li class="welcome-screen-cnt-list-item">Для переноса домена, пожалуйста, воспользуйтесь <a data-ga="/virt/hello/site/link/goto_instruction" class="js-ga" target="_blank" href="http://timeweb.com/ru/support/faq/domains/transfer/kak-vypolnit-tekhnicheskiy-perenos-domennykh-imen-v-timeweb/">следующей инструкцией</a></li></ol></div></li><li class="welcome-screen-item"><h3 class="welcome-screen-item-h icon-site" data-ga="/virt/hello/link/no_site">У меня нет сайта/домена</h3><div class="welcome-screen-cnt-w js-welcome-screen-cnt"><ol class="welcome-screen-cnt"><li class="welcome-screen-cnt-list-item">Создайте  <a class="js-ga" data-ga="/virt/hello/no_site/link/goto_site_create" href="/sites/">папку</a>, в которую в дальнейшем вы сможете загрузить файлы вашего сайта, или установите одну из популярных CMS в <a class="js-ga" data-ga="/virt/hello/no_site/link/goto_catalog" href="/cms/">нашем каталоге</a> (обратите внимание: могут понадобиться базовые технические навыки). Для вашего удобства мы подготовили подробную <a class="js-ga" target="_blank" data-ga="/virt/hello/video/site" href="http://timeweb.com/ru/help/pages/viewpage.action?pageId=4982785#id-%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8-%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D1%81%D0%B0%D0%B9%D1%82%D0%B0">видеоинструкцию</a> с описанием необходимых действий.</li><li class="welcome-screen-cnt-list-item"><a class="js-ga" data-ga="/virt/hello/no_site/link/goto_register_domain" href="/domains/#/register">Зарегистрируйте</a> ваш первый домен и привяжите его к директории сайта. Если потребуется, вы также можете воспользоваться подсказками в соответствующей <a class="js-ga" target="_blank" data-ga="/virt/hello/video/domain" href="http://timeweb.com/ru/help/pages/viewpage.action?pageId=4982785#id-%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D0%B8%D0%BF%D1%80%D0%BE%D0%B4%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0">видеоинструкции</a>.</li></ol></div></li><li class="welcome-screen-item"><h3 class="welcome-screen-item-h icon-wm-rate" data-ga="/virt/hello/webmaster">Я вебмастер, мне нужно разместить сайт клиента</h3><div class="welcome-screen-cnt-w js-welcome-screen-cnt"><ol class="welcome-screen-cnt"><li class="welcome-screen-cnt-list-item">Создайте <a class="js-ga" data-ga="/virt/hello/webmaster/link/create_account" href="/managers/">дополнительный аккаунт</a> для входа в панель управления под собственными реквизитами</li><li class="welcome-screen-cnt-list-item">Не забудьте удалить его после того, как аккаунт более не требуется</li></ol></div></li><li class="welcome-screen-item"><h3 class="welcome-screen-item-h icon-quest" data-ga="/virt/hello/help_me">Я не знаю, что дальше делать, помогите мне</h3><div class="welcome-screen-cnt-w js-welcome-screen-cnt"><ol class="welcome-screen-cnt"><li class="welcome-screen-cnt-list-item">Для начала почитайте подробнее о хостинге и доменах. Мы составили <a class="js-ga" data-ga="/virt/hello/help_me/link/documentation" target="_blank" href="http://timeweb.com/ru/support/faq/">короткую и удобную документацию</a>, чтобы вы быстро смогли понять, что к чему.</li><li class="welcome-screen-cnt-list-item"><a class="js-ga" data-ga="/virt/hello/help_me/link/register" href="/domains/#/register">Зарегистрируйте</a> ваш первый домен. С последовательностью требуемых действий вы можете ознакомиться в нашей <a class="js-ga" target="_blank" data-ga="/virt/hello/video/domain" href="http://timeweb.com/ru/help/pages/viewpage.action?pageId=4982785#id-%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8-%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D0%B8%D0%BF%D1%80%D0%BE%D0%B4%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD%D0%B0">видеоинструкции</a>.</li><li class="welcome-screen-cnt-list-item"><a class="js-ga" data-ga="/virt/hello/help_me/link/create_site" href="/sites/">Создайте сайт</a>. При необходимости обратитесь к еще одной <a class="js-ga" target="_blank" data-ga="/virt/hello/video/site" href="http://timeweb.com/ru/help/pages/viewpage.action?pageId=4982785#id-%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8-%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D1%81%D0%B0%D0%B9%D1%82%D0%B0">видеоинструкции</a> - она поможет вам сориентироваться.</li><li class="welcome-screen-cnt-list-item">Загрузите файлы вашего сайта на сервер Timeweb через <a class="js-ga" data-ga="/virt/hello/help_me/link/fileman" href="/fileman/">Файловый менеджер</a> или с помощью подключения по FTP. Видеоинструкцию об этом мы тоже подготовили - вы можете посмотреть ее <a class="js-ga" target="_blank" data-ga="/virt/hello/video/ftp" href="http://timeweb.com/ru/help/pages/viewpage.action?pageId=4982785#id-%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8-%D0%9F%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%D0%BF%D0%BEFTP">здесь</a>.</li></ol></div></li><li class="welcome-screen-item"><h3 class="welcome-screen-item-h icon-problem" data-ga="/virt/hello/situation">У меня другая ситуация</h3><div class="welcome-screen-cnt-w js-welcome-screen-cnt">
+        <div class="welcome-screen-cnt other-problem-form">
+            <label>Пожалуйста, опишите вашу ситуацию</label>
+            <!--suppress HtmlFormInputWithoutLabel -->
+            <textarea class="other-problem-textarea"></textarea>
+            <span class="validate-error">Необходимо заполнить поле</span><br />
+            <button type="submit" class="other-problem-submit btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only js-other-problem-submit">Отправить</button>
+        </div>
+    </div></li><li class="welcome-screen-item"><h3 class="welcome-screen-item-h icon-like" data-ga="/virt/hello/no_help">Мне не нужна помощь, спасибо</h3></li></ul>
+        </div>
+    </div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div class="ui-widget-overlay ui-front overlay-hover" style="z-index: 100;"></div></div>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31254085-3', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter22579897 = new Ya.Metrika({
+                    id: 22579897,
+                    clickmap: false,
+                    trackLinks: false,
+                    accurateTrackBounce: false                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>&lt;div&gt;&lt;img src="//mc.yandex.ru/watch/22579897" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script src="/assets/vendor-076de9bf66.js"></script><script src="/assets/app-ddf1c13035.js"></script><script src="/assets/oldcp-scripts/welcome_screen-c05df6b9ab.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6258ee1469","applicationID":"12527727","transactionName":"NVYBZkYCChZZAkBeWQwcIEdHFwsIFxJdQ1NNWg1WURs=","queueTime":0,"applicationTime":3,"atts":"GRECEA4YGRg=","errorBeacon":"bam.nr-data.net","agent":""}
+Timeweb.i18n={"UNKNOWN_ERROR":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043e\u0431\u0440\u0430\u0442\u0438\u0442\u0435\u0441\u044c \u0432 \u0441\u043b\u0443\u0436\u0431\u0443 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438","OK":"Ok","CANCEL":"\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c","CLOSE":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c"}
+window.Timeweb=window.Timeweb||{};Timeweb.config = {"USERID":"ce25808","MANAGERID":null,"SERVER_TIME":1506106884000,"LOCALE":"ru_RU","projects":[],"csrf":"QzIxbVV1N0ksS1IvBFhoDzp.RiVsMW4kcGpXMhcqBAsCC1k7JgZlAg==","WHOIS_SERVICE":"https://api.timeweb.ru/v1.1/whois/","WHOIS_LOCAL_SERVICE":"https://api.timeweb.ru/v1.1/domains/","DOMAIN_STATUS_SERVICE":"https://api.timeweb.ru/v1.1/domains/status/","PORTAL_TOKEN":"wThKbgfMK9o3nZfiHEvM","socket":"wss://api.timeweb.ru:8092/websocket","secureSocket":"wss://api.timeweb.ru:8092/websocket","usePreloader":true};
+;(function(){
+    if (typeof yii !== 'undefined') {
+        yii.translate.config.language = 'ru_RU';
+        yii.translate.dictionary = {"ru_RU":{"hosting\/common":{"No information":"Нет данных","Server is available on internet":"Сервер доступен в сети Интернет","Server is not available on internet":"Сервер не доступен в сети Интернет","Databases are available for work":"Работа с базами данных доступна","Databases are not available":"Работа с базами данных не доступна","Opened for connections":"Доступ для подключения открыт","Closed for connections":"Доступ для подключения закрыт"}}};
+    }
+})();
+
+if (Backbone.Injector.isRegistered('LiveTex')) { Backbone.Injector.dropService('LiveTex') }
+Backbone.Injector.register('LiveTex', {"ID":115555,"CUSTOMER":"Логин аккаунта","WELCOME_SCREEN_DEPARTMENTS":["63553"]});
+            Promise.all(["hosting\/assets\/hostingLayout\/js\/HostingLayout.js","common\/modules\/site\/widgets\/linkedAccountsList\/assets\/js\/LinkedAccountsListWidget.js","common\/modules\/site\/widgets\/mainHeaderAccount\/assets\/js\/MainHeaderAccount.js","common\/modules\/site\/widgets\/mainHeaderMenu\/assets\/js\/MainHeaderMenu.js","common\/widgets\/headerWarning\/assets\/js\/HeaderWarning.js","common\/widgets\/onlineChatStarter\/assets\/js\/OnlineChatStarter.js","common\/modules\/menu\/widgets\/menu\/assets\/js\/MenuWidget.js","common\/widgets\/bindPhoneAlert\/assets\/js\/BindPhoneAlert.js","common\/widgets\/mobileAppBanners\/assets\/js\/MobileAppBanners.js","hosting\/modules\/site\/assets\/js\/Site.js","common\/widgets\/infoPopup\/assets\/js\/InfoPopup.js","hosting\/modules\/site\/widgets\/promotionWidget\/assets\/js\/PromotionWidget.js","hosting\/modules\/site\/widgets\/visitsInfo\/assets\/js\/VisitsInfoChart.js","hosting\/modules\/site\/widgets\/visitsInfo\/assets\/js\/VisitsInfoWidget.js","hosting\/modules\/site\/widgets\/loadInfo\/assets\/js\/DbLoadChart.js","hosting\/modules\/site\/widgets\/loadInfo\/assets\/js\/CpuLoadChart.js","hosting\/modules\/site\/widgets\/loadInfo\/assets\/js\/LoadInfoWidget.js","common\/widgets\/switchSlider\/assets\/js\/SwitchSlider.js","hosting\/modules\/site\/widgets\/servicesStatus\/assets\/js\/ServicesStatus.js","hosting\/modules\/site\/widgets\/serverInfoTabs\/assets\/js\/ServerInfoTabs.js","common\/widgets\/zeroClipboard\/assets\/js\/ZeroClipboard.js","hosting\/modules\/site\/widgets\/bringFriend\/assets\/js\/BringFriend.js","hosting\/modules\/site\/widgets\/sliderBanners\/assets\/js\/SliderBanners.js"].map(function (name) { return System.import(name) })).then(function (modules) {
+new modules[0].default({"el":"#default-layout"});
+new modules[1].default({"el":"#w17-17-59c55e04","addAccountDialogTitle":"Привязка аккаунта","addAccountDialogTitleHelp":"Вы можете привязать к основной учетной записи (аккаунту) до 25 дополнительных.\u003Cbr\u003EДоступ к привязанным учетным записям сохраняется до момента изменения настроек \nбезопасности, смены пароля или ручного отключения привязанной учетной записи.","reactivationDialogTitle":"Подтвердить права доступа","reactivationDialogTitleHelp":"На подключенном аккаунте был изменен пароль. Подтвердите права доступа.","smsConfirmDialogTitle":"Подтверждение входа по СМС","smsConfirmDialogTitleHelp":"На привязанной учетной записи включена функция подтверждения входа по СМС.","csrf":"QzIxbVV1N0ksS1IvBFhoDzp.RiVsMW4kcGpXMhcqBAsCC1k7JgZlAg==","i18n":{"confirmText":"Вы действительно желаете отключить аккаунт {name}?","confirmTitle":"Отключение привязанного аккаунта"}});
+new modules[2].default({"el":"#w16-16-59c55e04"});
+new modules[3].default({"el":"#w15-menu","activateSameController":true,"unreadCountersUrl":"\/gate\/unread-counters"});
+new modules[4].default({"el":"#w14-15-59c55e04","cookieName":"hosting_hidden_notifications","windowConfig":{"type":"alert","size":500,"icon":"warning"},"hideLink":"\/site\/hide-notification","getNotificationsUrl":"\/site\/get-notifications"});
+new modules[5].default({"el":"#w13-14-59c55e04"});
+new modules[6].default({"el":"#menu-13-59c55e04-menu","activateSameController":true,"itemHoverClass":"menu-item-hover","newItemCookiePrefix":"menu_viewed_new_item_","hiddenItemCss":"ts-none"});
+new modules[7].default({"el":"#w12-12-59c55e04","cookieName":"bind_phone_alert_hidden","redirectUrl":"\/sms"});
+new modules[8].default({"el":"#w11-11-59c55e04","title":"Timeweb hosting control panel","author":"TIMEWEB Co LTD","button":"Перейти","store":{"ios":"В App Store","android":"В Google Play"},"price":{"ios":"Бесплатно","android":"Бесплатно"}});
+new modules[9].default({"el":".js-main-page","firstLogin":true,"promotion":true});
+new modules[10].default({"el":"#w10-10-59c55e04","title":"Реклама ваших сайтов","text":"Теперь вы можете настраивать контекстную рекламу и SEO-продвижение для ваших сайтов прямо в панели управления.","image":"\/assets\/files\/infoPopup\/banner-seopult.jpg","link":"\/promotion"});
+new modules[11].default({"el":"#w9-9-59c55e04"});
+new modules[12].default({"el":"#w7-7-59c55e04"});
+new modules[13].default({"el":"#w7-7-59c55e04","domain":"ce25808.tmweb.ru"});
+new modules[14].default({"el":"#w6-6-59c55e04"});
+new modules[15].default({"el":"#w6-6-59c55e04"});
+new modules[16].default({"el":"#w6-6-59c55e04"});
+new modules[17].default({"el":"#w5-5-59c55e04","labelOn":"ON","labelOff":"OFF"});
+new modules[18].default({"el":"#w4-4-59c55e04","csrf":"QzIxbVV1N0ksS1IvBFhoDzp.RiVsMW4kcGpXMhcqBAsCC1k7JgZlAg==","phoneAccepted":false,"messages":{"ftpAccess":"Доступ по FTP","ftpAndSshAccess":"Доступ по FTP\/SSH","sshAccessOpen":"Доступ открыт","sshAccessClose":"Доступ закрыт"},"phoneNotAcceptedWindow":{"type":"bindphone","size":500,"title":"Подключение SSH","icon":"attention","text":"Для подключения SSH необходима авторизация по номеру телефона.","ok_text":"Привязать телефон","ok_class":"cpS-btn-warning","cancel_text":"Отменить","id":"js-modal-1506106884","windowTemplate":".js-modal-bindphone-template"}});
+new modules[19].default({"el":"#w3-3-59c55e04","isDedicated":false,"getServerStatusesUrl":"\/site\/get-server-statuses"});
+new modules[20].default({"el":"#w2-2-59c55e04","content":"http:\/\/timeweb.com\/ru\/services\/hosting\/?utm_source=ce25808\u0026utm_medium=timeweb\u0026utm_campaign=timeweb-bring-a-friend","swfPath":"\/assets\/5996ee28\/ZeroClipboard.swf"});
+new modules[21].default({"el":"#w1-1-59c55e04","inputId":"w1-1-59c55e04-input"});
+new modules[22].default({"el":"#w0-0-59c55e04","banner":{"type":"backup","image":"\/images\/offers\/backup_offer.jpg?v=2","url":"\/backup\/?utm_campaign=backup\u0026utm_medium=timeweb\u0026utm_source=panel"}});});</script><script type="text/javascript" async="" src="//cs15.livetex.ru/js/client.js"></script><div class="k-list-container k-popup k-group k-reset" data-role="popup" style="position: absolute; height: auto; display: none;"><ul unselectable="on" class="k-list k-reset" tabindex="-1" role="listbox" aria-hidden="true" aria-live="off" style="overflow: auto; height: auto;"><li tabindex="-1" role="option" unselectable="on" class="k-item k-state-selected k-state-focused">ce25808.tmweb.ru</li></ul></div><div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 1px; height: 1px; z-index: 999999999;"><object id="global-zeroclipboard-flash-bridge" name="global-zeroclipboard-flash-bridge" width="100%" height="100%" type="application/x-shockwave-flash" data="/assets/5996ee28/ZeroClipboard.swf?noCache=1506106888987"><param name="allowScriptAccess" value="sameDomain" /><param name="allowNetworking" value="all" /><param name="menu" value="false" /><param name="wmode" value="transparent" /><param name="flashvars" value="trustedOrigins=hosting.timeweb.ru%2C%2F%2Fhosting.timeweb.ru%2Chttps%3A%2F%2Fhosting.timeweb.ru&amp;swfObjectId=global-zeroclipboard-flash-bridge&amp;jsVersion=2.3.0" /><div id="global-zeroclipboard-flash-bridge_fallbackContent"> </div></object></div>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery(document).pjax("a.js-pjax", {"history":false,"pcache":false,"push":true,"replace":false,"timeout":0,"scrollTo":false,"container":"#p0"});
+jQuery(document).on("submit", "form.js-pjax", function (event) {jQuery.pjax.submit(event, {"history":false,"pcache":false,"push":true,"replace":false,"timeout":0,"scrollTo":false,"container":"#p0"});});
+Timeweb.Analytics.setVar('dimension1', 'Test');
+$(document).on('pjax:complete', function(evt,xhr,textStatus,options) {
+  ga('send', 'pageview', window.location.pathname.replace('/', ''));
+});
+$(document).on('pjax:complete', function(evt,xhr,textStatus,options) {
+  try {
+    yaCounter22579897.hit(options.url, null, null);
+  } catch (error) {
+    // nothing...
+  }
+});
+});</script>
+
+<div id="dialogs"></div></body></html>
